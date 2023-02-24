@@ -35,19 +35,19 @@ class AjoutLivres:  #
         Paneauorangedegestionlivres.place(x=0, y=0, width=190, height=1000)
 
         #PhotoBoutons
-        self.ImageGestionlivres = PhotoImage(file="Images/Gestionlivre.png")
+        self.ImageGestionlivres = PhotoImage(file="")
         self.BoutonImagesGestionlivre = Button(self.PageAjouterDesLivres,command=self.VersGestionlivres, text="",image=self.ImageGestionlivres, width=184,height=90, bg="#ff7f00",font="arial 12 bold")
         self.BoutonImagesGestionlivre.place(x=0 , y=0) 
         
-        self.ImageAdherents = PhotoImage(file="Images/Adherents.png")
+        self.ImageAdherents = PhotoImage(file="")
         self.BoutonImageAdherents = Button(self.PageAjouterDesLivres,command=self.VersAdherents ,text="",image=self.ImageAdherents, width=184, height=90, bg="#ff7f00",font="arial 12 bold")
         self.BoutonImageAdherents.place(x=0 , y=140) 
 
-        self.ImageEmprunter = PhotoImage(file="Images/Emprunter.png")
+        self.ImageEmprunter = PhotoImage(file="")
         self.BoutonImageEmprunter = Button(self.PageAjouterDesLivres,command=self.VersGestiondesprets, text="",image=self.ImageEmprunter, width=184, height=90, bg="#ff7f00",font="arial 12 bold")
         self.BoutonImageEmprunter.place(x=0 , y=280) 
 
-        self.ImageSedeconnecter = PhotoImage(file="Images/Sedeconnecter.png")
+        self.ImageSedeconnecter = PhotoImage(file="")
         self.BoutonImageSedeconnecter = Button(self.PageAjouterDesLivres, text="",command=self.PourSedeconnecter,image=self.ImageSedeconnecter, width=184, height=90, bg="#ff7f00",font="arial 12 bold")
         self.BoutonImageSedeconnecter.place(x=0 , y=420)
 
