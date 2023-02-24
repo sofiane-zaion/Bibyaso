@@ -41,20 +41,20 @@ class gestionprets:  # classe formulaire:
         Paneauorangedegestionlivres.place(x=0, y=0, width=190, height=1000)
 
 
-        self.ImageGestionlivres = PhotoImage(file="Images/Gestionlivre.png")
+        self.ImageGestionlivres = PhotoImage(file="")
         self.BoutonPourAllerVersGestionLivres = Button(self.PageGestiondesprets,command=self.VersGestionLivres, text="",image=self.ImageGestionlivres, width=184,height=90, bg="#ff7f00",font="arial 12 bold")
         self.BoutonPourAllerVersGestionLivres.place(x=0 , y=0) 
         
-        self.ImageAdherents = PhotoImage(file="Images/Adherents.png")
+        self.ImageAdherents = PhotoImage(file="")
         self.BoutonPourAllerVersAdherents = Button(self.PageGestiondesprets,command=self.VersAdherents, text="",image=self.ImageAdherents, width=184, height=90, bg="#ff7f00",font="arial 12 bold")
         self.BoutonPourAllerVersAdherents.place(x=0 , y=140) 
 
-        self.ImageGestionDesprets = PhotoImage(file="Images/Emprunter.png")
+        self.ImageGestionDesprets = PhotoImage(file="")
         self.BoutonPourAllerVersGestionDesprets = Button(self.PageGestiondesprets, text="",image=self.ImageGestionDesprets, width=184, height=90, bg="#ff7f00",font="arial 12 bold")
         self.BoutonPourAllerVersGestionDesprets.place(x=0 , y=280) 
 
         
-        self.ImageSedeconnecter = PhotoImage(file="Images/Sedeconnecter.png")
+        self.ImageSedeconnecter = PhotoImage(file="")
         self.BoutonPourSedeconnecter = Button(self.PageGestiondesprets, text="",command=self.PourSeDeConnecter,image=self.ImageSedeconnecter, width=184, height=90, bg="#ff7f00",font="arial 12 bold")
         self.BoutonPourSedeconnecter.place(x=0 , y=420) 
 
