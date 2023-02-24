@@ -43,20 +43,20 @@ class gestionlivres:  #classe formulaire
 
         
         #Boutons Images
-        self.ImageGestionLivresDeLaPageGestionlivres = PhotoImage(file="Images/Gestionlivre.png")
+        self.ImageGestionLivresDeLaPageGestionlivres = PhotoImage(file="")
         self.BoutonGestionLivresDeLaPageGestionlivres = Button(self.Pagegestionlivres,image=self.ImageGestionLivresDeLaPageGestionlivres, width=184,height=90, bg="#ff7f00",font="arial 12 bold")
         self.BoutonGestionLivresDeLaPageGestionlivres.place(x=0 , y=0) 
        
 
-        self.ImageAdherentDeLaPageGestionlivres = PhotoImage(file="Images/Adherents.png")
+        self.ImageAdherentDeLaPageGestionlivres = PhotoImage(file="")
         self.BoutonGestionLivresDeLaPageGestionlivres = Button(self.Pagegestionlivres,command=self.VersPageAdherents, text="",image=self.ImageAdherentDeLaPageGestionlivres, width=184, height=90, bg="#ff7f00",font="arial 12 bold")
         self.BoutonGestionLivresDeLaPageGestionlivres.place(x=0 , y=140) 
 
-        self.ImageGestionDesPretsDeLaPageGestionlivres = PhotoImage(file="Images/Emprunter.png")
+        self.ImageGestionDesPretsDeLaPageGestionlivres = PhotoImage(file="")
         self.BoutonGestionDesPretsDeLaPageGestionlivres = Button(self.Pagegestionlivres,command=self.VersPageGestionDesPrets, text="",image=self.ImageGestionDesPretsDeLaPageGestionlivres, width=184, height=90, bg="#ff7f00",font="arial 12 bold")
         self.BoutonGestionDesPretsDeLaPageGestionlivres.place(x=0 , y=280) 
 
-        self.ImageSeDeconnecterDeLaPageGestionlivres = PhotoImage(file="Images/Sedeconnecter.png")
+        self.ImageSeDeconnecterDeLaPageGestionlivres = PhotoImage(file="")
         self.BoutonSeDeconnecterDeLaPageGestionlivres = Button(self.Pagegestionlivres, text="",command=self.BoutonDeconnexion,image=self.ImageSeDeconnecterDeLaPageGestionlivres, width=184, height=90, bg="#ff7f00",font="arial 12 bold")
         self.BoutonSeDeconnecterDeLaPageGestionlivres.place(x=0 , y=420) 
         
