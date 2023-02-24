@@ -16,7 +16,7 @@ class AjoutLivres:  #
         self.PageAjouterDesLivres.title("Ajouter un livre") #titre Ajouter un livre
         self.PageAjouterDesLivres.geometry("1040x560+400+200") #taille de l'application
         self.PageAjouterDesLivres.resizable(width=False, height=False)# eviter d'agrandir la fenetre
-        self.PageAjouterDesLivres.iconbitmap("Images/bib.ico") 
+        self.PageAjouterDesLivres.iconbitmap("") 
 
 
 
