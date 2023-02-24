@@ -20,7 +20,7 @@ class gestionlivres:  #classe formulaire
         self.Pagegestionlivres.geometry("1040x560+400+200")#Taille de notre Application    
 
         self.Pagegestionlivres.resizable(width=False, height=False) #eviter d'agrandir la fenetre  
-        self.Pagegestionlivres.iconbitmap("Images/bib.ico") #Icone de l'application 
+        self.Pagegestionlivres.iconbitmap("") #Icone de l'application 
 
 
         #Déclarer des variables pour ensuite les récuperer
