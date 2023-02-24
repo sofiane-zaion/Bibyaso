@@ -16,7 +16,7 @@ class gestionprets:  # classe formulaire:
         self.PageGestiondesprets.geometry("1040x560+400+200")#pour gerer la taille de l'application
         
         self.PageGestiondesprets.resizable(width=False, height=False)#Pour eviter d'agrandir notre application
-        self.PageGestiondesprets.iconbitmap("Images/bib.ico")  #pour gerer l'icone de notre application
+        self.PageGestiondesprets.iconbitmap("")  #pour gerer l'icone de notre application
        
         
         self.idEmprunt = StringVar() 
